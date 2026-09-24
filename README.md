@@ -1,12 +1,18 @@
 # Algorithmic Fairness Auditor
 
+[![Tests](https://github.com/nitinparab4cloud/fairness-auditor/actions/workflows/tests.yml/badge.svg)](https://github.com/nitinparab4cloud/fairness-auditor/actions/workflows/tests.yml)
+
 A technical fairness audit of the ProPublica COMPAS recidivism dataset — the same
 case study covered in MSI5004's Week 5 seminar — that reproduces ProPublica's 2016
 finding with `fairlearn`, then goes past the aggregate numbers with a counterfactual
 test on individual cases.
 
 **Live demo:** https://huggingface.co/spaces/nparab/fairness-auditor
-**Part of:** [AI Governance Case Files](../README.md) — a five-project portfolio series
+
+**Part of:** AI Governance Case Files, a six-project series: [EU AI Act Risk Navigator](https://github.com/nitinparab4cloud/ai-act-risk-navigator) · [Algorithmic Fairness Auditor](https://github.com/nitinparab4cloud/fairness-auditor) · [Governance Documentation Suite](https://github.com/nitinparab4cloud/governance-documentation-suite) · [Explainability Auditor](https://github.com/nitinparab4cloud/explainability-auditor) · [Governed RAG Agent](https://github.com/nitinparab4cloud/governed-rag-agent) · [Agentic AI Incident Response](https://github.com/nitinparab4cloud/agentic-incident-response)
+
+**Origin:** Began as an extension of NUS MSI5004 (AI Governance and Ethics) coursework and was built out independently, beyond the module syllabus.
+
 **Status:** data pipeline and group-level metrics are built and tested, both in the
 local Gradio app (now with a bar chart) and in a browser-based static demo. The
 counterfactual test and audit report are this project's remaining milestones (see
