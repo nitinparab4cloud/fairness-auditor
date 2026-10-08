@@ -1,11 +1,7 @@
-# Copyright © 2026 Nitin Parab. Part of the "AI Governance Case Files" portfolio
-# (https://github.com/nitinparab4cloud/fairness-auditor).
-# See this project's LICENSE file for reuse terms.
-
 """
 counterfactual_test.py
 -----------------------
-STUB -- this is Case 02's Week 3 milestone (checklist item p2-3 in the
+STUB -- this is Legal-1's Week 3 milestone (checklist item p2-3 in the
 portfolio tracker). The aggregate metrics in fairness_metrics.py answer
 "is the ERROR RATE different across groups, on average." This file answers
 a different, individually-scoped question straight out of the MSI5004

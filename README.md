@@ -1,18 +1,14 @@
-# Algorithmic Fairness Auditor
-
-[![Tests](https://github.com/nitinparab4cloud/fairness-auditor/actions/workflows/tests.yml/badge.svg)](https://github.com/nitinparab4cloud/fairness-auditor/actions/workflows/tests.yml)
+# Legal-1 — Algorithmic Fairness Auditor
 
 A technical fairness audit of the ProPublica COMPAS recidivism dataset — the same
 case study covered in MSI5004's Week 5 seminar — that reproduces ProPublica's 2016
 finding with `fairlearn`, then goes past the aggregate numbers with a counterfactual
 test on individual cases.
 
-**Live demo:** https://huggingface.co/spaces/nparab/fairness-auditor
-
-**Part of:** AI Governance Case Files, a six-project series: [EU AI Act Risk Navigator](https://github.com/nitinparab4cloud/ai-act-risk-navigator) · [Algorithmic Fairness Auditor](https://github.com/nitinparab4cloud/fairness-auditor) · [Governance Documentation Suite](https://github.com/nitinparab4cloud/governance-documentation-suite) · [Explainability Auditor](https://github.com/nitinparab4cloud/explainability-auditor) · [Governed RAG Agent](https://github.com/nitinparab4cloud/governed-rag-agent) · [Agentic AI Incident Response](https://github.com/nitinparab4cloud/agentic-incident-response)
-
-**Origin:** Began as an extension of NUS MSI5004 (AI Governance and Ethics) coursework and was built out independently, beyond the module syllabus.
-
+**Live demo:** _add your Hugging Face Space link here once deployed_ (a working,
+tested, static `index.html` for a free HF Static Space ships in this folder — see
+"Deploying to Hugging Face Spaces" below; this one's ready to upload today)
+**Part of:** [AI Governance Case Files](../README.md) — a four-project portfolio series
 **Status:** data pipeline and group-level metrics are built and tested, both in the
 local Gradio app (now with a bar chart) and in a browser-based static demo. The
 counterfactual test and audit report are this project's remaining milestones (see
@@ -90,7 +86,7 @@ approach is scoped to ship in the Week 3 checklist item.
 
 ## Deploying to Hugging Face Spaces
 
-Same free-tier situation as Cases 01 and 04: Hugging Face moved Gradio and Docker
+Same free-tier situation as CrossSector-1 and Legal-2: Hugging Face moved Gradio and Docker
 Spaces behind a paid plan, so `app.py` (the full Gradio version, now with the bar
 chart) needs a paid Space or local use. For the free route, `index.html` in this
 folder is a complete, self-contained, already-tested static demo: the filtered
@@ -135,4 +131,4 @@ output into `index.html`'s `<script>` tag, or ask for it to be rebuilt.
 
 ## License
 
-All rights reserved — see `LICENSE`. Public here for evaluation by prospective employers and collaborators; not licensed for reuse without permission.
+MIT — see `LICENSE`.

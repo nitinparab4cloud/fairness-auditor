@@ -1,7 +1,3 @@
-# Copyright © 2026 Nitin Parab. Part of the "AI Governance Case Files" portfolio
-# (https://github.com/nitinparab4cloud/fairness-auditor).
-# See this project's LICENSE file for reuse terms.
-
 """
 data_loader.py
 ---------------

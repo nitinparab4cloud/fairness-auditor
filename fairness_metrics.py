@@ -1,7 +1,3 @@
-# Copyright © 2026 Nitin Parab. Part of the "AI Governance Case Files" portfolio
-# (https://github.com/nitinparab4cloud/fairness-auditor).
-# See this project's LICENSE file for reuse terms.
-
 """
 fairness_metrics.py
 --------------------
@@ -11,8 +7,8 @@ covers group-level metrics; counterfactual_test.py (Week 3, still to build)
 covers the individual-level test from the MSI5004 coursework.
 
 The three metrics below map directly onto the AI Verify Testing Framework's
-fairness principle and onto Domain III/IV of the AIGP body of knowledge
-(bias testing as an operational governance control, not just a stated value).
+fairness principle, treating bias testing as an operational governance
+control rather than just a stated value.
 
 Definitions used here, in plain terms:
 
